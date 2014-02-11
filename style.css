@@ -1,0 +1,112 @@
+body{
+	background-color: rgba(0,0,0,0.8);
+}
+#head{
+	font-size: 45px;
+	background-color: black;
+	height: 150px;
+	left: 0 ;
+	right: 0;
+	top: 0;
+	position: fixed;
+	color: silver;
+	font-family: sans-serif;
+	z-index: 1000;
+	box-shadow: 0 0 25px 2px black;
+}
+	#head span {
+		top: 45px;
+		text-align: center;
+		color: #6B9902;
+		position: absolute;
+		width: 100%;
+	}
+		#head span strong{
+			text-shadow: 0 1px 0 #517906, 0 2px 0 #4B7225, 0 3px 0 #1C4303, 0 4px 0 #135104, 0 5px 0 #395401, 0 6px 0 #347C03;
+
+		}
+#contents{
+	top: 150px;
+	position: absolute;
+	height: auto;
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 500;
+}
+	#contents form{
+		top: 50px;
+		left: 50px;
+		position: absolute;
+	}
+		#contents form input{
+			height: 5px;
+			width: 400px;
+			border: 0px;
+			padding: 25px;
+			box-shadow: 0px 0px 52px 2px black;
+			font-weight: bold;
+			font-family: sans-serif;
+		}
+			#contents form input:focus{
+				box-shadow: 0px 0px 52px 2px blue;
+			}
+		#contents form textarea{
+			height: 150px;
+			width: 400px;
+			box-shadow: 0px 0px 52px 2px black;
+			font-family: sans-serif;
+			padding: 25px;
+			font-size: 20px;
+			border: 0px;
+			resize: none;
+		}
+				#contents form textarea:focus{
+					box-shadow: 0px 0px 52px 2px blue;
+				}
+		#contents form button{
+			height: 50px;
+			width: 150px;
+			border: 0px;
+			box-shadow: 0 0 20px 5px black;
+			font-family: sans-serif;
+			font-size: 20px;
+			cursor: pointer;
+			transition: 0.5s;
+		}
+			#contents form button:hover{
+			box-shadow: 0 0 20px 5px blue;
+
+		}
+#unicode_text{
+	position: fixed;
+	top: 250px;
+	right: 45px;
+	left: auto;
+}
+	#unicode_text{
+		font-size: 80px;
+		font-family: courier;
+		font-weight: bolder;
+		text-align: center;
+		color: #002200;
+	}
+#sent_mail{
+	font-size: 45px;
+	color: silver;
+	font-family: sans-serif;
+	top: 50px;
+	position: absolute;
+	left: 10px;
+	border: 1px solid green;
+}
+#failed{
+	font-size: 35px;
+	color: silver;
+	font-family: sans-serif;
+	top: 50px;
+	position: absolute;
+	left: 10px;
+	border: 1px solid red;
+}
