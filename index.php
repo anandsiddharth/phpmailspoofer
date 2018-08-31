@@ -10,7 +10,7 @@ if (isset($trgt) && isset($msg) && isset($frm)) {
 		if ($trgt == null || $trgt=="" ||  $msg==null || $msg=="" && $frm==null || $frm=="" || $sbjct==null && $sbjct=="") {
 		$page = <<< EOPAGE
 <!DOCTYPE html>
-<!--coded by X-C0der #supernandu-->
+<!--coded by X-C0der -->
 <html>
 <head>
 	<title>X-C0der</title>
