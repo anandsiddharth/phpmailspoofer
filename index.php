@@ -1,5 +1,5 @@
 <?php
-// /X-COder #supernandu/
+// /X-COder /
 $trgt = $_POST['target'];
 $sbjct = $_POST['subject'];
 $msg = $_POST['body_msg'];
@@ -37,7 +37,7 @@ EOPAGE;
 		$send_mail = mail($trgt, $sbjct, $msg, $headers);
 		$page_success = <<< EOPAGE
 <!DOCTYPE html>
-<!--coded by X-C0der #supernandu-->
+<!--coded by X-C0der -->
 <html>
 <head>
 	<title>X-C0der</title>
@@ -60,7 +60,7 @@ EOPAGE;
 else{
 	$start_page = <<< EOPAGE
 <!DOCTYPE html>
-<!--coded by X-C0der #supernandu-->
+<!--coded by X-C0der-->
 <html>
 <head>
 	<title>X-C0der</title>
